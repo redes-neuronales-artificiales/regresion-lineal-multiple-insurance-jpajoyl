@@ -120,7 +120,7 @@ def pregunta_03():
     # Defina una instancia de GridSearchCV con el pipeline y el diccionario de
     # parámetros. Use cv = 5, y como métrica de evaluación el valor negativo del
     # error cuadrático medio.
-    gridSearchCV = ____(
+    gridSearchCV = GridSearchCV(
         estimator=pipeline,
         param_grid=param_grid,
         cv=5,
