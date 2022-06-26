@@ -114,7 +114,7 @@ def pregunta_03():
     # Defina un diccionario de parámetros para el GridSearchCV. Se deben
     # considerar valores desde 1 hasta 11 regresores para el modelo
     param_grid = {
-        'linear_regression_fit_intercept': range(1, 12),
+        'linear_regression__fit_intercept': range(1, 12),
     }
 
     # Defina una instancia de GridSearchCV con el pipeline y el diccionario de
